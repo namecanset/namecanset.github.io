@@ -14,9 +14,4 @@ body,main{
 header,main,footer{
    flex-direction: column; 
 }
-aside{
- flex: 1;    
-}
-article{
-    flex: 3;
-}
+
