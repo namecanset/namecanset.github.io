@@ -8,3 +8,15 @@
       a:hover {
         color: green;
       }
+body,main{
+ display:flex    
+}
+header,main,footer{
+   flex-direction: column  
+}
+aside{
+ flex: 1    
+}
+article{
+    flex: 3
+}
