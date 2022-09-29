@@ -9,14 +9,14 @@
         color: green;
       }
 body,main{
- display:flex    
+ display:flex;    
 }
 header,main,footer{
-   flex-direction: column  
+   flex-direction: column; 
 }
 aside{
- flex: 1    
+ flex: 1;    
 }
 article{
-    flex: 3
+    flex: 3;
 }
