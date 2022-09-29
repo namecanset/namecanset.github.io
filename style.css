@@ -11,6 +11,9 @@
 body,main{
  display:flex;    
 }
+main{flex: auto;
+}
+
 header,main,footer{
    flex-direction: column; 
 }
