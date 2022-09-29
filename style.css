@@ -8,22 +8,14 @@
       a:hover {
         color: green;
       }
- body,
-      main {
+   main {
         display: flex;
-      }
-      main {
         flex: auto;
+        flex-direction: row;
       }
-
-      header,
-      main,
-      footer {
-        flex-direction: column;
+      aside {
+        flex: 1;
       }
-	  aside{
-		flex: 1;
-	  }
-	  article{
-		flex: 3;
-	  }
+      article {
+        flex: 3;
+      }
